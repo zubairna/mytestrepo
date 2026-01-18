@@ -1,9 +1,22 @@
 body {
-    background-color: #e0e0e0;
-    background-image: linear-gradient(45deg, #c0c0c0 25%, transparent 25%),
-                      linear-gradient(-45deg, #c0c0c0 25%, transparent 25%),
-                      linear-gradient(45deg, transparent 75%, #c0c0c0 75%),
-                      linear-gradient(-45deg, transparent 75%, #c0c0c0 75%);
-    background-size: 20px 20px;
-    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    background: radial-gradient(circle at center, #1a2980, #26d0ce);
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 30px 50px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-transform: lowercase;
+    letter-spacing: -1px;
 }
